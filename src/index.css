@@ -1,1 +1,71 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  /* Custom Typography Utility Scales */
+  --text-display-3xl: 3.75rem;
+  --text-display-3xl--line-height: 4.5rem;
+
+  --text-display-2xl: 3rem;
+  --text-display-2xl--line-height: 3.75rem;
+  --text-display-2xl--letter-spacing: -2%;
+
+  --text-display-xl: 2.5rem;
+  --text-display-xl--line-height: 3.5rem;
+  --text-display-xl--letter-spacing: -2%;
+
+  --text-display-lg: 2.25rem;
+  --text-display-lg--line-height: 3rem;
+  --text-display-lg--letter-spacing: -2%;
+
+  --text-display-md: 2rem;
+  --text-display-md--line-height: 2.875rem;
+
+  --text-display-sm: 1.75rem;
+  --text-display-sm--line-height: 2.375rem;
+
+  --text-display-xs: 1.5rem;
+  --text-display-xs--line-height: 2.25rem;
+
+  --text-text-xl: 1.25rem;
+  --text-text-xl--line-height: 2.125rem;
+
+  --text-text-lg: 1.125rem;
+  --text-text-lg--line-height: 2rem;
+
+  /* Neutral Colors (Gray Foundation) */
+  --color-gray-25: #fdfdfd;
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f5f5f5;
+  --color-gray-200: #e9eaeb;
+  --color-gray-300: #d5d7da;
+  --color-gray-400: #a4a7ae;
+  --color-gray-500: #717680;
+  --color-gray-600: #535862;
+  --color-gray-700: #414651;
+  --color-gray-800: #252b37;
+  --color-gray-900: #181d27;
+  --color-gray-950: #0a0d12;
+
+  /* Primary Brand Colors */
+  --color-primary-100: #f3ebff;
+  --color-primary-200: #8b32ff;
+  --color-primary-300: #6600eb;
+  --color-primary-400: #160131;
+
+  /* Base Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --font-sans: 'Poppins', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-black);
+    color: var(--color-gray-900);
+    font-family: var(--font-sans);
+    @apply antialiased;
+  }
+}
