@@ -12,6 +12,8 @@ const queryClient = new QueryClient({
     queries: {
       // TODO: Configure default query options
       // Examples: refetchOnWindowFocus, retry, staleTime, etc.
+      refetchOnWindowFocus: false, // Menghindari refetch otomatis saat pindah tab
+      retry: 1, // Mencoba kembali 1 kali jika request gagal
     },
   },
 });

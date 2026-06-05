@@ -1,4 +1,5 @@
 import './index.css';
+import HomePage from './pages/HomePage';
 
 function App() {
   // TODO: Setup routing dengan React Router
@@ -7,15 +8,15 @@ function App() {
 
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b">
+      {/* <header className="border-b">
         <div className="container mx-auto px-4 py-4">
           <h1 className="text-2xl font-bold">Movie Explorer</h1>
-          {/* TODO: Add navigation menu */}
+          TODO: Add navigation menu
         </div>
-      </header>
+      </header> */}
 
       <main className="container mx-auto px-4 py-8">
-        <div className="text-center space-y-4">
+        {/* <div className="text-center space-y-4">
           <h2 className="text-4xl font-bold">Challenge 9 - Movie App</h2>
           <p className="text-muted-foreground">
             Mulai dengan membaca README.md untuk instruksi lengkap!
@@ -31,9 +32,10 @@ function App() {
               <li>5. Mulai develop dengan npm run dev</li>
             </ol>
           </div>
-        </div>
+        </div> */}
 
         {/* TODO: Replace this with your actual application routes and components */}
+        <HomePage />
       </main>
     </div>
   );

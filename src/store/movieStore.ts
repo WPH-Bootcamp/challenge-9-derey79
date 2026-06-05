@@ -5,7 +5,6 @@ import { create } from 'zustand';
 interface MovieStore {
   // TODO: Add state properties
   // Examples: favorites, watchlist, selectedMovie, etc.
-
   // TODO: Add action methods
   // Examples: addToFavorites, removeFromFavorites, etc.
 }
